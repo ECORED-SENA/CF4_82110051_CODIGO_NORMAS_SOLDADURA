@@ -8,25 +8,25 @@
       h1 Métodos de control de calidad según criterios de aceptación o rechazo en los códigos.
     .row
       .col-lg-8.order-2.order-lg-1
-        p.font-text-cuadros Según el modelo de la norma ISO 9000, la calidad es el "grado en el que un conjunto de características inherentes cumple con los requisitos". Estos requisitos representan necesidades o expectativas generalmente implícitas u obligatorias. Una vez firmado el contrato, estos requisitos pasan a ser mandatorios para las partes involucradas.
+        p.espacio Según el modelo de la norma ISO 9000, la calidad es el "grado en el que un conjunto de características inherentes cumple con los requisitos". Estos requisitos representan necesidades o expectativas generalmente implícitas u obligatorias. Una vez firmado el contrato, estos requisitos pasan a ser mandatorios para las partes involucradas.
           .row.bg-c4.mb-3.ms-0
             .col-auto.align-items-right.ps-0
               figure.d-none.d-lg-block
                 img(src='@/assets/curso/tema1/img1.svg', alt='Texto que describa la imagen' style="width: 130px").m-auto
             .col
-              .p-3.h-100.align-items-center.font-text-cuadros-2.pt-4
+              .p-3.h-100.align-items-center.pt-4
                 p.mb-0 En el ámbito de la soldadura, los documentos normativos establecen requisitos específicos según el tipo de producto. Por ejemplo, las exigencias para fabricar un recipiente de contención de un reactor nuclear son muy diferentes a las de un edificio industrial destinado al almacenamiento.
       .col-lg-4.order-1.order-lg-2.mb-3
         figure
           img(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen').m-auto   
     .row.ms-0
-      .col-lg-4.ps-0.mt-3.mb-3
+      .col-lg-4.ps-0.mb-3
         figure
-          img(src='@/assets/curso/tema1/img2.png', alt='Texto que describa la imagen' style="width: 360px").m-auto
+          img(src='@/assets/curso/tema1/img2.png', alt='Texto que describa la imagen' style="width: 400px").m-auto
       .col-1.align-items-center
         figure.d-none.d-lg-block
           img(src='@/assets/curso/tema1/img2.svg', alt='Texto que describa la imagen', style="width:70px").m-auto   
-      .col-lg-7.font-text-cuadros-2
+      .col-lg-7
         p Los contratistas o subcontratistas que trabajan con estructuras metálicas están obligados a garantizar que los diseños, cálculos, materiales y juntas soldadas cumplan con las expectativas del cliente. Para ello, se aplican diversas técnicas de aseguramiento de la calidad, tanto destructivas como no destructivas, realizadas por personal capacitado, certificado y entrenado. Esto asegura que los informes generados tengan validez legal en Colombia y que los procesos de soldadura sean trazables.                    
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido
@@ -147,7 +147,7 @@
           .row
             .col.px-5          
               h3.text-right Charpy V-Notch
-              p.text-small.mb-4 Mide el comportamiento del material ante impactos. La probeta se golpea con una masa conocida, evaluando su capacidad para soportar condiciones extremas.
+              p.text-small.mb-5 Mide el comportamiento del material ante impactos. La probeta se golpea con una masa conocida, evaluando su capacidad para soportar condiciones extremas.
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Tipos de hallazgos
