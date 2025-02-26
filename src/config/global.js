@@ -113,7 +113,7 @@ export default {
       referencia:
         'SENA. (2005). <i>Ensayos Destructivos ED y Ensayos no Destructivos</i>.',
       tipo: 'Documento',
-      link: 'Anexo 1',
+      descarga: '/downloads/anexo1.pdf',
     },
     {
       tema: 'Tipos de hallazgos',
@@ -125,52 +125,52 @@ export default {
   ],
   glosario: [
     {
-      termino: '<b><i>Doblado guiado</i></b>',
+      termino: '<strom>Doblado guiado',
       significado:
         'ensayo destructivo que mide la maleabilidad del material mediante el doblado de probetas.',
     },
     {
-      termino: '<b><i>Fluencia</i></b>',
+      termino: '<strom>Fluencia',
       significado:
         'fenómeno metalúrgico en la transición entre deformaciones elásticas y plásticas.',
     },
     {
-      termino: '<b><i>Grietas</i></b>',
+      termino: '<strom>Grietas',
       significado:
         'separaciones en el metal debido a tensiones excesivas durante el proceso de soldadura.',
     },
     {
-      termino: '<b><i>Inclusiones sólidas</i></b>',
+      termino: '<strom>Inclusiones sólidas',
       significado:
         'residuos metálicos o no metálicos atrapados en el metal fundido durante la soldadura.',
     },
     {
-      termino: '<b><i>Mandatorio</i></b>',
+      termino: '<strom>Mandatorio',
       significado:
         'actividad que debe realizarse obligatoriamente según instrucciones específicas.',
     },
     {
-      termino: '<b><i>Material base</i></b>',
+      termino: '<strom>Material base',
       significado:
         'aleación de hierro diseñada para ser soldada, compuesta por hierro y otros elementos.',
     },
     {
-      termino: '<b><i>Poros</i></b>',
+      termino: '<strom>Poros',
       significado:
         'huecos globulares en el cordón de soldadura causados por gases atrapados.',
     },
     {
-      termino: '<b><i>Tenacidad</i></b>',
+      termino: '<strom>Tenacidad',
       significado:
         'capacidad de un material para absorber energía antes de fracturarse.',
     },
     {
-      termino: '<b><i>Tensión</i></b>',
+      termino: '<strom>Tensión',
       significado:
         'ensayo que evalúa la resistencia del material al esfuerzo de tracción.',
     },
     {
-      termino: '<b><i>Tintas penetrantes</i></b>',
+      termino: '<strom>Tintas penetrantes',
       significado:
         'técnica que utiliza capilaridad para detectar discontinuidades en la superficie del metal.',
     },

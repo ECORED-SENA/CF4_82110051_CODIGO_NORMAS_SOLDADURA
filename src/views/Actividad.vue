@@ -32,24 +32,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto:
-                '<em>Garantizar el aspecto estético de las uniones soldadas.</em>',
+              texto: 'Garantizar el aspecto estético de las uniones soldadas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                '<em>Asegurar la resistencia e integridad de las soldaduras.</em>',
+              texto: 'Asegurar la resistencia e integridad de las soldaduras.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: '<em>Reducir los costos de fabricación.</em>',
+              texto: 'Reducir los costos de fabricación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Identificar los materiales más económicos.</em>',
+              texto: 'Identificar los materiales más económicos.',
               esCorrecta: false,
             },
           ],
@@ -65,22 +63,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '<em>Tintas penetrantes.</em>',
+              texto: 'Tintas penetrantes.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Ultrasonido.</em>',
+              texto: 'Ultrasonido.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Partículas magnetizables.</em>',
+              texto: 'Partículas magnetizables.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Radiografía.</em>',
+              texto: 'Radiografía.',
               esCorrecta: false,
             },
           ],
@@ -95,26 +93,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto:
-                '<em>Utiliza ondas acústicas para analizar materiales.</em>',
+              texto: 'Utiliza ondas acústicas para analizar materiales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                '<em>No altera las propiedades del material inspeccionado.</em>',
+              texto: 'No altera las propiedades del material inspeccionado.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                '<em>Produce alteraciones irreversibles en el material.</em>',
+              texto: 'Produce alteraciones irreversibles en el material.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                '<em>Es menos costoso que los ensayos no destructivos.</em>',
+              texto: 'Es menos costoso que los ensayos no destructivos.',
               esCorrecta: false,
             },
           ],
@@ -130,22 +124,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '<em>Tintas a base de agua.</em>',
+              texto: 'Tintas a base de agua.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Tintas visibles con luz normal.</em>',
+              texto: 'Tintas visibles con luz normal.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Tintas fluorescentes.</em>',
+              texto: 'Tintas fluorescentes.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Tintas magnetizadas.</em>',
+              texto: 'Tintas magnetizadas.',
               esCorrecta: false,
             },
           ],
@@ -161,22 +155,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '<em>Inclusiones sólidas.</em>',
+              texto: 'Inclusiones sólidas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Poros.</em>',
+              texto: 'Poros.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Grietas.</em>',
+              texto: 'Grietas.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Falta de fusión.</em>',
+              texto: 'Falta de fusión.',
               esCorrecta: false,
             },
           ],
@@ -192,22 +186,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '<em>Radiografía.</em>',
+              texto: 'Radiografía.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Partículas magnetizables.</em>',
+              texto: 'Partículas magnetizables.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: '<em>Ultrasonido.</em>',
+              texto: 'Ultrasonido.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Tintas penetrantes.</em>',
+              texto: 'Tintas penetrantes.',
               esCorrecta: false,
             },
           ],
@@ -223,12 +217,12 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '<em>Rotura Nick.</em>',
+              texto: 'Rotura <em>Nick.</em>',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Tensión.</em>',
+              texto: 'Tensión.',
               esCorrecta: true,
             },
             {
@@ -238,7 +232,7 @@ export default {
             },
             {
               id: 'd',
-              texto: '<em>Doblado guiado.</em>',
+              texto: 'Doblado guiado.',
               esCorrecta: false,
             },
           ],
@@ -254,22 +248,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '<em>Porosidades.</em>',
+              texto: 'Porosidades.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Falta de fusión.</em>',
+              texto: 'Falta de fusión.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Inclusiones sólidas.</em>',
+              texto: 'Inclusiones sólidas.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Tensión residual.</em>',
+              texto: 'Tensión residual.',
               esCorrecta: false,
             },
           ],
@@ -279,7 +273,7 @@ export default {
         {
           id: 9,
           texto:
-            'El ensayo de doblado guiado evalúa la maleabilidad del <em>material</em> y <em>califica</em> la habilidad del soldador.',
+            'El ensayo de doblado guiado evalúa la maleabilidad del material y califica la habilidad del soldador.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -300,7 +294,7 @@ export default {
         {
           id: 10,
           texto:
-            'La radiografía es una técnica destructiva que utiliza <em>rayos X</em> para inspeccionar discontinuidades internas.',
+            'La radiografía es una técnica destructiva que utiliza rayos X para inspeccionar discontinuidades internas.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -327,22 +321,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '<em>Partículas magnetizables.</em>',
+              texto: 'Partículas magnetizables.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Tintas penetrantes.</em>',
+              texto: 'Tintas penetrantes.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: '<em>Ultrasonido.</em>',
+              texto: 'Ultrasonido.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Radiografía.</em>',
+              texto: 'Radiografía.',
               esCorrecta: false,
             },
           ],
@@ -358,22 +352,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '<em>ASME IX.</em>',
+              texto: 'ASME IX.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>ISO 14001.</em>',
+              texto: 'ISO 14001.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>ISO 9000.</em>',
+              texto: 'ISO 9000.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>AWS D1.1.</em>',
+              texto: 'AWS D1.1.',
               esCorrecta: false,
             },
           ],
@@ -389,7 +383,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '<em>Rotura Nick.</em>',
+              texto: 'Rotura <em>Nick.</em>',
               esCorrecta: false,
             },
             {
@@ -399,12 +393,12 @@ export default {
             },
             {
               id: 'c',
-              texto: '<em>Tensión.</em>',
+              texto: 'Tensión.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Doblado guiado.</em>',
+              texto: 'Doblado guiado.',
               esCorrecta: false,
             },
           ],
@@ -420,22 +414,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '<em>Poros.</em>',
+              texto: 'Poros.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Grietas.</em>',
+              texto: 'Grietas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Falta de fusión.</em>',
+              texto: 'Falta de fusión.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Inclusiones sólidas.</em>',
+              texto: 'Inclusiones sólidas.',
               esCorrecta: false,
             },
           ],
@@ -451,22 +445,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '<em>Tintas penetrantes.</em>',
+              texto: 'Tintas penetrantes.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Inspección visual.</em>',
+              texto: 'Inspección visual.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: '<em>Ultrasonido.</em>',
+              texto: 'Ultrasonido.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Radiografía.</em>',
+              texto: 'Radiografía.',
               esCorrecta: false,
             },
           ],

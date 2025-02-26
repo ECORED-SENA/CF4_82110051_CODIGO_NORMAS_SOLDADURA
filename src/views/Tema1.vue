@@ -28,6 +28,7 @@
           img(src='@/assets/curso/tema1/img2.svg', alt='Texto que describa la imagen', style="width:70px").m-auto   
       .col-lg-7
         p Los contratistas o subcontratistas que trabajan con estructuras metálicas están obligados a garantizar que los diseños, cálculos, materiales y juntas soldadas cumplan con las expectativas del cliente. Para ello, se aplican diversas técnicas de aseguramiento de la calidad, tanto destructivas como no destructivas, realizadas por personal capacitado, certificado y entrenado. Esto asegura que los informes generados tengan validez legal en Colombia y que los procesos de soldadura sean trazables.                    
+    
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Tipos de ensayos
@@ -37,17 +38,20 @@
         .p-5
           .row
             .col-auto.align-items-right.ps-0.bg-c6
-              imagen.svg-fluot.d-none.d-lg-block
+              imagen.svg-fluot-2.d-none.d-lg-block
                 img(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen' , style="width:60px")
             .col-lg-3.bg-c6
-              p.m-1.float-end #[b Ensayos no destructivos]
+              p.m-0.float-end.text-1 #[b Ensayos no destructivos]
           .row
             .col-lg-12.ps-0   
-              p.mb-5.mt-4 Los ensayos no destructivos (END) son procedimientos que no alteran de forma permanente las propiedades físicas, químicas, mecánicas o dimensionales del material. Basados en fenómenos físicos como ondas electromagnéticas, acústicas y elásticas, así como en la emisión de partículas subatómicas y la capilaridad, estos ensayos buscan detectar discontinuidades sin dañar la pieza sometida a prueba.
-          .row.bg-c7
-            .col-lg-9.ms-auto
-              .p-lg-4.p-2.bg-c8.font-text-cuadros-2
-                p.m-0 Los ensayos no destructivos (END) son procedimientos que no alteran de forma permanente las propiedades físicas, químicas, mecánicas o dimensionales del material. Basados en fenómenos físicos como ondas electromagnéticas, acústicas y elásticas, así como en la emisión de partículas subatómicas y la capilaridad, estos ensayos buscan detectar discontinuidades sin dañar la pieza sometida a prueba.
+              p.mb-2.mt-4 Los ensayos no destructivos (END) son procedimientos que no alteran de forma permanente las propiedades físicas, químicas, mecánicas o dimensionales del material. Basados en fenómenos físicos como ondas electromagnéticas, acústicas y elásticas, así como en la emisión de partículas subatómicas y la capilaridad, estos ensayos buscan detectar discontinuidades sin dañar la pieza sometida a prueba.
+            .my-5
+              .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+                .bloque-texto-g__img(
+                  :style="{'background-image': `url(${require('@/assets/curso/tema1/img4.png')})`}"
+                )
+                .bloque-texto-g__texto.p-4
+                  p.mb-0 Los ensayos no destructivos (END) son procedimientos que no alteran de forma permanente las propiedades físicas, químicas, mecánicas o dimensionales del material. Basados en fenómenos físicos como ondas electromagnéticas, acústicas y elásticas, así como en la emisión de partículas subatómicas y la capilaridad, estos ensayos buscan detectar discontinuidades sin dañar la pieza sometida a prueba.
     .row.bg-c9.mb-5
       .col-12
         .p-5
@@ -91,10 +95,10 @@
                       img(src='@/assets/curso/tema1/img10.png', alt='Texto que describa la imagen')    
     .row
       .col-auto.align-items-right.ps-0.bg-c6
-        imagen.svg-fluot-2.d-none.d-lg-block
+        imagen.svg-fluot-3.d-none.d-lg-block
           img(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen', style="width:60px")
       .col-lg-3.bg-c6
-        p.m-1.float-end #[b Ensayos destructivos]
+        p.m-0.float-end.text-2 #[b Ensayos destructivos]
       .row
         .col-12.ps-0   
           p.mb-5.mt-4 Los ensayos destructivos son pruebas que modifican de manera irreversible las propiedades del material. Estas pruebas son esenciales para evaluar la resistencia y calidad del material, así como las uniones soldadas.
@@ -109,7 +113,7 @@
                     img(src='@/assets/curso/tema1/img11.png', alt='Diagrama que ilustra el centro de soldadura de una pieza, indicando las dimensiones relativas con variables "D" y "T". Se destacan los rodillos laterales y las distancias específicas. ', style="width: 340px")
           .row
             .col.px-5
-              h3.text-right Doblado guiado
+              h4.text-right Doblado guiado
               p.text-small.mb-5 Se aplica una carga a la probeta hasta doblarla completamente en forma de "U" sobre una matriz central. Este ensayo analiza la maleabilidad del material y la habilidad del soldador.
       .col-lg-6.col-lg-6.mb-4.mb-lg-0
         .tarjeta--boton.color-adicional-1
@@ -121,7 +125,7 @@
                     img(src='@/assets/curso/tema1/img12.png', alt='Representación del uso de un martillo para aplicar fuerza en una pieza con ranuras de sierra. ', style="width: 230px")
           .row
             .col.px-5          
-              h3.text-right Rotura Nick
+              h4.text-right Rotura Nick
               p.text-small.mb-5 Consiste en fracturar la probeta para exponer una superficie de al menos 19 mm. Permite inspeccionar la sanidad de la unión soldada, verificando penetración y fusión completas.
     .row
       .col-lg-6.col-lg-6.mb-4.mb-lg-0
@@ -134,7 +138,7 @@
                     img(src='@/assets/curso/tema1/img13.png', alt='Tres ensamblajes roscados alineados verticalmente, con la medida de 2 1/2 pulgadas indicada en el ensamblaje inferior. El diseño muestra uniones perforadas y simétricas. ', style="width: 200px")
           .row
             .col.px-5
-              h3.text-right Tensión
+              h4.text-right Tensión
               p.text-small.mb-5 La probeta se somete a una fuerza axial que genera alargamiento y fractura. Este ensayo mide la resistencia estructural del material.
       .col-lg-6.col-lg-6.mb-4.mb-lg-0
         .tarjeta--boton.color-adicional-1
@@ -146,8 +150,9 @@
                     img(src='@/assets/curso/tema1/img14.png', alt='Diagrama que representa un ensayo de impacto tipo péndulo, con componentes como martillo, yunque, medidor y muestra. Las flechas indican el movimiento del martillo desde la posición inicial hasta el fin del balanceo. ', style="width: 175px")
           .row
             .col.px-5          
-              h3.text-right Charpy V-Notch
+              h4.text-right <em> Charpy V-Notch </em>
               p.text-small.mb-5 Mide el comportamiento del material ante impactos. La probeta se golpea con una masa conocida, evaluando su capacidad para soportar condiciones extremas.
+    
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Tipos de hallazgos
