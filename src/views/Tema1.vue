@@ -6,6 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Métodos de control de calidad según criterios de aceptación o rechazo en los códigos.
+    
     .row
       .col-lg-8.order-2.order-lg-1
         p.espacio Según el modelo de la norma ISO 9000, la calidad es el "grado en el que un conjunto de características inherentes cumple con los requisitos". Estos requisitos representan necesidades o expectativas generalmente implícitas u obligatorias. Una vez firmado el contrato, estos requisitos pasan a ser mandatorios para las partes involucradas.
@@ -19,6 +20,7 @@
       .col-lg-4.order-1.order-lg-2.mb-3
         figure
           img(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen').m-auto   
+    
     .row.ms-0
       .col-lg-4.ps-0.mb-3
         figure
@@ -33,15 +35,17 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Tipos de ensayos
     p En la industria de aseguramiento de la calidad para uniones soldadas, los ensayos se clasifican en dos tipos principales: los que no afectan de forma permanente la estructura o ensamblaje, denominados ensayos no destructivos, y aquellos que provocan alteraciones irreversibles en el material, conocidos como ensayos destructivos.
+    
     .row.bg-c5
       .col-12
         .p-5
-          .row
-            .col-auto.align-items-right.ps-0.bg-c6
-              imagen.svg-fluot-2.d-none.d-lg-block
-                img(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen' , style="width:60px")
-            .col-lg-3.bg-c6
-              p.m-0.float-end.text-1 #[b Ensayos no destructivos]
+
+          .container-svg.my-4
+            .contanier-svg
+              img(src="@/assets/curso/tema1/img3.svg")
+            .cont-text 
+              h3 Ensayos no destructivos 
+          
           .row
             .col-lg-12.ps-0   
               p.mb-2.mt-4 Los ensayos no destructivos (END) son procedimientos que no alteran de forma permanente las propiedades físicas, químicas, mecánicas o dimensionales del material. Basados en fenómenos físicos como ondas electromagnéticas, acústicas y elásticas, así como en la emisión de partículas subatómicas y la capilaridad, estos ensayos buscan detectar discontinuidades sin dañar la pieza sometida a prueba.
@@ -52,6 +56,7 @@
                 )
                 .bloque-texto-g__texto.p-4
                   p.mb-0 Los ensayos no destructivos (END) son procedimientos que no alteran de forma permanente las propiedades físicas, químicas, mecánicas o dimensionales del material. Basados en fenómenos físicos como ondas electromagnéticas, acústicas y elásticas, así como en la emisión de partículas subatómicas y la capilaridad, estos ensayos buscan detectar discontinuidades sin dañar la pieza sometida a prueba.
+    
     .row.bg-c9.mb-5
       .col-12
         .p-5
@@ -93,15 +98,18 @@
                   .col-lg-6.bg-c10.px-5.py-5
                     figure
                       img(src='@/assets/curso/tema1/img10.png', alt='Texto que describa la imagen')    
+    
     .row
-      .col-auto.align-items-right.ps-0.bg-c6
-        imagen.svg-fluot-3.d-none.d-lg-block
-          img(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen', style="width:60px")
-      .col-lg-3.bg-c6
-        p.m-0.float-end.text-2 #[b Ensayos destructivos]
+      .col-5
+        .container-svg.my-4
+          .contanier-svg
+            img(src="@/assets/curso/tema1/img3.svg")
+          .cont-text 
+            h3 Ensayos destructivos 
       .row
         .col-12.ps-0   
           p.mb-5.mt-4 Los ensayos destructivos son pruebas que modifican de manera irreversible las propiedades del material. Estas pruebas son esenciales para evaluar la resistencia y calidad del material, así como las uniones soldadas.
+  
     .row.mb-4
       .col-lg-6.col-lg-6.mb-4.mb-lg-0
         .tarjeta--boton.color-adicional-1
@@ -210,7 +218,7 @@
                     img(src='@/assets/curso/tema1/img21.png', alt='', style="width: 300px")
       .col-lg-3.mb-5.mb-md-0
         img.d-none.d-lg-block(src="@/assets/curso/tema1/img15.png", alt='Imagen que representa un defecto en la soldadura, con indicación de áreas de porosidad en la parte superior y secciones perforadas en la parte inferior. ', style="width: 340px" )
-    
+
  
 </template>
 
@@ -222,5 +230,4 @@ export default {
   }),
 }
 </script>
-
 <style lang="sass"></style>

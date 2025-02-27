@@ -122,6 +122,39 @@ figcaption
     margin: 0 auto
     padding: 10px
 
+.container-svg
+  position: relative
+  display: inline-flex
+  align-items: flex-end
+  padding-left: 0.7rem
+  &::before
+    content: ""
+    position: absolute
+    background-color: $color-acento-contenido
+    top: 29px
+    bottom: 0px
+    left: 0px
+    right: 0
+    z-index: 0
+  .cont-text
+    position: relative
+    h3
+      margin: 0
+      margin-left: 0.5rem
+      margin-right: 1.5rem
+      padding-bottom: 0.3rem
+      padding-top: 1rem
+      @media screen and (max-width: $bp-max-xs)
+        margin-right: 0.5rem
+  .contanier-svg
+    position: relative
+    img
+      max-width: 46px
+      position: relative
+      bottom: -10px
+      left: -4px
+
+
 .espacio  
   margin-bottom: 35px
 
@@ -129,14 +162,3 @@ figcaption
   position: absolute
   top: 345px
   left: 70px
-
-.svg-fluot-2
-  position: absolute
-  top: 912px 
-.svg-fluot-3
-  position: absolute
-  top: 2095px 
-.text-1
-  font-size: 1.4rem  
-.text-2
-  font-size: 1.5rem
