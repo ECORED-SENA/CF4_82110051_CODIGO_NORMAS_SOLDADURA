@@ -39,7 +39,6 @@
     .row.bg-c5
       .col-12
         .p-5
-
           .container-svg.my-4
             .contanier-svg
               img(src="@/assets/curso/tema1/img3.svg")
@@ -100,12 +99,13 @@
                       img(src='@/assets/curso/tema1/img10.png', alt='Texto que describa la imagen')    
     
     .row
-      .col-5
+      .col-lg-5
         .container-svg.my-4
           .contanier-svg
             img(src="@/assets/curso/tema1/img3.svg")
           .cont-text 
             h3 Ensayos destructivos 
+
       .row
         .col-12.ps-0   
           p.mb-5.mt-4 Los ensayos destructivos son pruebas que modifican de manera irreversible las propiedades del material. Estas pruebas son esenciales para evaluar la resistencia y calidad del material, así como las uniones soldadas.
