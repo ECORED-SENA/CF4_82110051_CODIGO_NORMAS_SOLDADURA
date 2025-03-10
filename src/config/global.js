@@ -37,7 +37,7 @@ export default {
         nombreRuta: 'tema1',
         numero: '1',
         titulo:
-          'Métodos de control de calidad según criterios de aceptación o rechazo en los códigos.',
+          'Métodos de control de calidad según criterios de aceptación o rechazo en los códigos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -101,7 +101,7 @@ export default {
   complementario: [
     {
       tema:
-        'Métodos de control de calidad según criterios de aceptación o rechazo en los códigos.',
+        'Métodos de control de calidad según criterios de aceptación o rechazo en los códigos',
       referencia:
         'Estewan Comas. (2024).  <i>TÉCNICAS UTILIZADAS PARA EL CONTROL DE CALIDAD EN SOLDADURA</i>. [Archivo de video] YouTube.',
       tipo: 'Video',

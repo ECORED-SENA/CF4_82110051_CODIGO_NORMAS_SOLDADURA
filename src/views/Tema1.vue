@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Métodos de control de calidad según criterios de aceptación o rechazo en los códigos.
+      h1 Métodos de control de calidad según criterios de aceptación o rechazo en los códigos
     
     .row
       .col-lg-8.order-2.order-lg-1
@@ -21,7 +21,7 @@
         figure
           img(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen').m-auto   
     
-    .row.ms-0
+    .row.ms-0.mb-0
       .col-lg-4.ps-0.mb-3
         figure
           img(src='@/assets/curso/tema1/img2.png', alt='Texto que describa la imagen' style="width: 400px").m-auto
@@ -34,12 +34,14 @@
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Tipos de ensayos
-    p En la industria de aseguramiento de la calidad para uniones soldadas, los ensayos se clasifican en dos tipos principales: los que no afectan de forma permanente la estructura o ensamblaje, denominados ensayos no destructivos, y aquellos que provocan alteraciones irreversibles en el material, conocidos como ensayos destructivos.
+    .row.mb-0.my-0
+      .col-lg-12
+        p En la industria de aseguramiento de la calidad para uniones soldadas, los ensayos se clasifican en dos tipos principales: los que no afectan de forma permanente la estructura o ensamblaje, denominados ensayos no destructivos, y aquellos que provocan alteraciones irreversibles en el material, conocidos como ensayos destructivos.
     
     .row.bg-c5
-      .col-12
+      .col-lg-12
         .p-5
-          .container-svg.my-4
+          .container-svg.mb-4
             .contanier-svg
               img(src="@/assets/curso/tema1/img3.svg")
             .cont-text 
@@ -47,14 +49,14 @@
           
           .row
             .col-lg-12.ps-0   
-              p.mb-2.mt-4 Los ensayos no destructivos (END) son procedimientos que no alteran de forma permanente las propiedades físicas, químicas, mecánicas o dimensionales del material. Basados en fenómenos físicos como ondas electromagnéticas, acústicas y elásticas, así como en la emisión de partículas subatómicas y la capilaridad, estos ensayos buscan detectar discontinuidades sin dañar la pieza sometida a prueba.
-            .my-5
+              p.mb-2.mt-4 Los ensayos no destructivos (<em>END</em>) son procedimientos que no alteran de forma permanente las propiedades físicas, químicas, mecánicas o dimensionales del material. Basados en fenómenos físicos como ondas electromagnéticas, acústicas y elásticas, así como en la emisión de partículas subatómicas y la capilaridad, estos ensayos buscan detectar discontinuidades sin dañar la pieza sometida a prueba.
+            .my-0
               .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
                 .bloque-texto-g__img(
                   :style="{'background-image': `url(${require('@/assets/curso/tema1/img4.png')})`}"
                 )
                 .bloque-texto-g__texto.p-4
-                  p.mb-0 Los ensayos no destructivos (END) son procedimientos que no alteran de forma permanente las propiedades físicas, químicas, mecánicas o dimensionales del material. Basados en fenómenos físicos como ondas electromagnéticas, acústicas y elásticas, así como en la emisión de partículas subatómicas y la capilaridad, estos ensayos buscan detectar discontinuidades sin dañar la pieza sometida a prueba.
+                  p.mb-0 Los ensayos no destructivos (<em>END</em>) son procedimientos que no alteran de forma permanente las propiedades físicas, químicas, mecánicas o dimensionales del material. Basados en fenómenos físicos como ondas electromagnéticas, acústicas y elásticas, así como en la emisión de partículas subatómicas y la capilaridad, estos ensayos buscan detectar discontinuidades sin dañar la pieza sometida a prueba.
     
     .row.bg-c9.mb-5
       .col-12
