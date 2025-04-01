@@ -22,6 +22,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> Identificar los conocimientos adquiridos sobre las técnicas, características y aplicaciones de los ensayos destructivos y no destructivos.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: '¡VUELVA A INTENTARLO!',
       preguntas: [
         {
           id: 1,
