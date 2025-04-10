@@ -166,10 +166,13 @@
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Tipos de hallazgos
+
     p.mb-5 Las discontinuidades detectadas durante los ensayos pueden clasificarse como defectos o como características aceptables según los códigos de soldadura.
+
     .row.justify-content-center.align-items-top
       .col-lg-9.mb-5.mb-md-0
         LineaTiempoD.color-primario
+
           .row(numero="1" titulo="Grietas")
             .col-lg-6.mb-4.mb-md-0
               p Separaciones en el metal causadas por tensiones residuales o mecánicas.
@@ -178,6 +181,7 @@
                 .col-auto
                   figure
                     img(src='@/assets/curso/tema1/img16.png', alt='Diagrama con diversos tipos de grietas en soldaduras: longitudinal, transversal, en el metal de soldadura, en la raíz, en la zona afectada térmicamente (ZAT), y en la intercara de la soldadura. ', style="width: 350px")
+
           .row(numero="2" titulo="Poros")
             .col-lg-6.mb-4.mb-md-0
               p Huecos globulares generados por gases liberados durante la solidificación del metal.
@@ -186,6 +190,7 @@
                 .col-auto
                   figure.py-4
                     img(src='@/assets/curso/tema1/img17.png', alt='Imagen que representa un defecto en la soldadura, con indicación de áreas de porosidad en la parte superior y secciones perforadas en la parte inferior.', style="width: 200px").m-auto
+
           .row(numero="3" titulo="Falta de fusión")
             .col-lg-6.mb-4.mb-md-0
               p Ocurre cuando el metal base y el metal depositado no se fusionan completamente debido a factores como insuficiente potencia eléctrica.
@@ -194,6 +199,7 @@
                 .col-auto
                   figure
                     img(src='@/assets/curso/tema1/img18.png', alt='Imagen que representa un defecto en la soldadura, con indicación de áreas de porosidad en la parte superior y secciones perforadas en la parte inferior.', style="width: 190px")
+
           .row(numero="4" titulo="Inclusiones sólidas")
             .col-lg-6.mb-4.mb-md-0
               p Partículas o residuos atrapados dentro del metal soldado, como escoria o óxidos.
@@ -202,6 +208,7 @@
                 .col-auto
                   figure.py-5
                     img(src='@/assets/curso/tema1/img19.png', alt='Imagen que muestra un diseño de soldadura en forma de esquina, con indicación de fisuras internas en la soldadura.', style="width: 200px")
+
           .row(numero="5" titulo="Resistencia a tensión")
             .col-lg-6.mb-4.mb-md-0
               p Mide las propiedades del material sometido a esfuerzos de tracción, evaluando su resistencia estructural.
@@ -210,6 +217,7 @@
                 .col-auto
                   figure.py-4
                     img(src='@/assets/curso/tema1/img20.png', alt='Gráfico que muestra la relación entre tensión (MPa) y deformación (%), destacando regiones como deformación elástica lineal, no lineal, límite elástico, cuello, deformación plástica y tensión de rotura.', style="width: 250px")
+
           .row(numero="6" titulo="Tenacidad")
             .col-lg-6.mb-4.mb-md-0
               p Determina la capacidad del material para absorber energía antes de fracturarse, lo que refleja el nivel de cohesión atómica.
@@ -218,6 +226,7 @@
                 .col-auto
                   figure.py-4
                     img(src='@/assets/curso/tema1/img21.png', alt='', style="width: 300px")
+                    
       .col-lg-3.mb-5.mb-md-0
         img.d-none.d-lg-block(src="@/assets/curso/tema1/img15.png", alt='Imagen que representa un defecto en la soldadura, con indicación de áreas de porosidad en la parte superior y secciones perforadas en la parte inferior. ', style="width: 340px" )
 
