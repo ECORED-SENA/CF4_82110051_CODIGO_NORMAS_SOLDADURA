@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Métodos de control de calidad según criterios de aceptación o rechazo en los códigos
@@ -10,24 +10,24 @@
     .row
       .col-lg-8.order-2.order-lg-1
         p.espacio Según el modelo de la norma ISO 9000, la calidad es el "grado en el que un conjunto de características inherentes cumple con los requisitos". Estos requisitos representan necesidades o expectativas generalmente implícitas u obligatorias. Una vez firmado el contrato, estos requisitos pasan a ser mandatorios para las partes involucradas.
-          .row.bg-c4.mb-3.ms-0
+          .row.bg-c4.mb-3.ms-0(data-aos="fade-right")
             .col-auto.align-items-right.ps-0
               figure.d-none.d-lg-block
-                img(src='@/assets/curso/tema1/img1.svg', alt='Texto que describa la imagen' style="width: 130px").m-auto
+                img(src='@/assets/curso/tema1/img1.svg', alt='' style="width: 130px").m-auto
             .col
               .p-3.h-100.align-items-center.pt-4
                 p.mb-0 En el ámbito de la soldadura, los documentos normativos establecen requisitos específicos según el tipo de producto. Por ejemplo, las exigencias para fabricar un recipiente de contención de un reactor nuclear son muy diferentes a las de un edificio industrial destinado al almacenamiento.
       .col-lg-4.order-1.order-lg-2.mb-3
-        figure
-          img(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen').m-auto   
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/tema1/img1.png', alt='').m-auto   
     
     .row.ms-0.mb-0
       .col-lg-4.ps-0.mb-3
-        figure
-          img(src='@/assets/curso/tema1/img2.png', alt='Texto que describa la imagen' style="width: 400px").m-auto
+        figure(data-aos="fade-right").d-none.d-xl-block
+          img(src='@/assets/curso/tema1/img2.png', alt='' style="width: 400px").m-auto
       .col-1.align-items-center
-        figure.d-none.d-lg-block
-          img(src='@/assets/curso/tema1/img2.svg', alt='Texto que describa la imagen', style="width:70px").m-auto   
+        figure.d-none.d-lg-block(data-aos="fade-up")
+          img(src='@/assets/curso/tema1/img2.svg', alt='', style="width:70px").m-auto   
       .col-lg-7
         p Los contratistas o subcontratistas que trabajan con estructuras metálicas están obligados a garantizar que los diseños, cálculos, materiales y juntas soldadas cumplan con las expectativas del cliente. Para ello, se aplican diversas técnicas de aseguramiento de la calidad, tanto destructivas como no destructivas, realizadas por personal capacitado, certificado y entrenado. Esto asegura que los informes generados tengan validez legal en Colombia y que los procesos de soldadura sean trazables.                    
     
@@ -41,7 +41,7 @@
     .row.bg-c5
       .col-lg-12
         .p-5
-          .container-svg.mb-4
+          .container-svg.mb-4(data-aos="fade-right")
             .contanier-svg
               img(src="@/assets/curso/tema1/img3.svg")
             .cont-text 
@@ -51,7 +51,7 @@
             .col-lg-12.ps-0   
               p.mb-2.mt-4 Los ensayos no destructivos (<em>END</em>) son procedimientos que no alteran de forma permanente las propiedades físicas, químicas, mecánicas o dimensionales del material. Basados en fenómenos físicos como ondas electromagnéticas, acústicas y elásticas, así como en la emisión de partículas subatómicas y la capilaridad, estos ensayos buscan detectar discontinuidades sin dañar la pieza sometida a prueba.
             .my-0
-              .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+              .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="fade-up")
                 .bloque-texto-g__img(
                   :style="{'background-image': `url(${require('@/assets/curso/tema1/img4.png')})`}"
                 )
@@ -61,7 +61,7 @@
     .row.bg-c9.mb-5
       .col-12
         .p-5
-          .tarjeta.bg-white
+          .tarjeta.bg-white(data-aos="fade-up")
             .p-4.p-lg-5
               SlyderA(tipo="b")
                 .row
@@ -98,11 +98,11 @@
                     p Usa radiación ionizante (rayos X o Gamma) para atravesar la pieza y detectar defectos internos. La variación de densidad en la película radiográfica revela discontinuidades.
                   .col-lg-6.bg-c10.px-5.py-5
                     figure
-                      img(src='@/assets/curso/tema1/img10.png', alt='Texto que describa la imagen')    
+                      img(src='@/assets/curso/tema1/img10.png', alt='')    
     
     .row
       .col-lg-5
-        .container-svg.my-4
+        .container-svg.my-4(data-aos="fade-right")
           .contanier-svg
             img(src="@/assets/curso/tema1/img3.svg")
           .cont-text 
@@ -113,7 +113,7 @@
           p.mb-5.mt-4 Los ensayos destructivos son pruebas que modifican de manera irreversible las propiedades del material. Estas pruebas son esenciales para evaluar la resistencia y calidad del material, así como las uniones soldadas.
   
     .row.mb-4
-      .col-lg-6.col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.col-lg-6.mb-4.mb-lg-0(data-aos="flip-right")
         .tarjeta--boton.color-adicional-1
           .row.justify-content-center
             .col-7.bg-c11
@@ -125,7 +125,7 @@
             .col.px-5
               h4.text-right Doblado guiado
               p.text-small.mb-5 Se aplica una carga a la probeta hasta doblarla completamente en forma de "U" sobre una matriz central. Este ensayo analiza la maleabilidad del material y la habilidad del soldador.
-      .col-lg-6.col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.col-lg-6.mb-4.mb-lg-0(data-aos="flip-right")
         .tarjeta--boton.color-adicional-1
           .row.justify-content-center
             .col-7.bg-c11
@@ -138,7 +138,7 @@
               h4.text-right Rotura Nick
               p.text-small.mb-5 Consiste en fracturar la probeta para exponer una superficie de al menos 19 mm. Permite inspeccionar la sanidad de la unión soldada, verificando penetración y fusión completas.
     .row
-      .col-lg-6.col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.col-lg-6.mb-4.mb-lg-0(data-aos="flip-right")
         .tarjeta--boton.color-adicional-1
           .row.justify-content-center
             .col-7.bg-c11
@@ -150,7 +150,7 @@
             .col.px-5
               h4.text-right Tensión
               p.text-small.mb-5 La probeta se somete a una fuerza axial que genera alargamiento y fractura. Este ensayo mide la resistencia estructural del material.
-      .col-lg-6.col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.col-lg-6.mb-4.mb-lg-0(data-aos="flip-right")
         .tarjeta--boton.color-adicional-1
           .row.justify-content-center
             .col-7.bg-c11
@@ -170,7 +170,7 @@
     p.mb-5 Las discontinuidades detectadas durante los ensayos pueden clasificarse como defectos o como características aceptables según los códigos de soldadura.
 
     .row.justify-content-center.align-items-top
-      .col-lg-9.mb-5.mb-md-0
+      .col-lg-9.mb-5.mb-md-0(data-aos="fade-right")
         LineaTiempoD.color-primario
 
           .row(numero="1" titulo="Grietas")
@@ -228,7 +228,8 @@
                     img(src='@/assets/curso/tema1/img21.png', alt='', style="width: 300px")
                     
       .col-lg-3.mb-5.mb-md-0
-        img.d-none.d-lg-block(src="@/assets/curso/tema1/img15.png", alt='Imagen que representa un defecto en la soldadura, con indicación de áreas de porosidad en la parte superior y secciones perforadas en la parte inferior. ', style="width: 340px" )
+        figure(data-aos="fade-left")
+          img.d-none.d-lg-block(src="@/assets/curso/tema1/img15.png", alt='Imagen que representa un defecto en la soldadura, con indicación de áreas de porosidad en la parte superior y secciones perforadas en la parte inferior. ', style="width: 340px" )
 
  
 </template>
