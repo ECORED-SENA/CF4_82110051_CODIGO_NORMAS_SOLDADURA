@@ -32,7 +32,7 @@
         p Los contratistas o subcontratistas que trabajan con estructuras metálicas están obligados a garantizar que los diseños, cálculos, materiales y juntas soldadas cumplan con las expectativas del cliente. Para ello, se aplican diversas técnicas de aseguramiento de la calidad, tanto destructivas como no destructivas, realizadas por personal capacitado, certificado y entrenado. Esto asegura que los informes generados tengan validez legal en Colombia y que los procesos de soldadura sean trazables.                    
     
     Separador
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Tipos de ensayos
     .row.mb-0.my-0
       .col-lg-12
@@ -164,7 +164,7 @@
               p.text-small.mb-5 Mide el comportamiento del material ante impactos. La probeta se golpea con una masa conocida, evaluando su capacidad para soportar condiciones extremas.
     
     Separador
-    #t_1_2.titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Tipos de hallazgos
 
     p.mb-5 Las discontinuidades detectadas durante los ensayos pueden clasificarse como defectos o como características aceptables según los códigos de soldadura.
