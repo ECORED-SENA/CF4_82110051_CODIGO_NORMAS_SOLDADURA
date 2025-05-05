@@ -8,35 +8,35 @@
       h1 Métodos de control de calidad según criterios de aceptación o rechazo en los códigos
     
     .row
-      .col-lg-8.order-2.order-lg-1
+      .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p.espacio Según el modelo de la norma ISO 9000, la calidad es el "grado en el que un conjunto de características inherentes cumple con los requisitos". Estos requisitos representan necesidades o expectativas generalmente implícitas u obligatorias. Una vez firmado el contrato, estos requisitos pasan a ser mandatorios para las partes involucradas.
-          .row.bg-c4.mb-3.ms-0(data-aos="fade-right")
+          .row.bg-c4.mb-3.ms-0
             .col-auto.align-items-right.ps-0
               figure.d-none.d-lg-block
                 img(src='@/assets/curso/tema1/img1.svg', alt='' style="width: 130px").m-auto
             .col
               .p-3.h-100.align-items-center.pt-4
                 p.mb-0 En el ámbito de la soldadura, los documentos normativos establecen requisitos específicos según el tipo de producto. Por ejemplo, las exigencias para fabricar un recipiente de contención de un reactor nuclear son muy diferentes a las de un edificio industrial destinado al almacenamiento.
-      .col-lg-4.order-1.order-lg-2.mb-3
-        figure(data-aos="fade-left")
+      .col-lg-4.order-1.order-lg-2.mb-3(data-aos="fade-left")
+        figure
           img(src='@/assets/curso/tema1/img1.png', alt='').m-auto   
     
     .row.ms-0.mb-0
-      .col-lg-4.ps-0.mb-3
-        figure(data-aos="fade-right").d-none.d-xl-block
+      .col-lg-4.ps-0.mb-3(data-aos="fade-right")
+        figure.d-none.d-xl-block
           img(src='@/assets/curso/tema1/img2.png', alt='' style="width: 400px").m-auto
-      .col-1.align-items-center
-        figure.d-none.d-lg-block(data-aos="fade-up")
+      .col-1.align-items-center(data-aos="fade-up")
+        figure.d-none.d-lg-block
           img(src='@/assets/curso/tema1/img2.svg', alt='', style="width:70px").m-auto   
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         p Los contratistas o subcontratistas que trabajan con estructuras metálicas están obligados a garantizar que los diseños, cálculos, materiales y juntas soldadas cumplan con las expectativas del cliente. Para ello, se aplican diversas técnicas de aseguramiento de la calidad, tanto destructivas como no destructivas, realizadas por personal capacitado, certificado y entrenado. Esto asegura que los informes generados tengan validez legal en Colombia y que los procesos de soldadura sean trazables.                    
     
     Separador
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Tipos de ensayos
     .row.mb-0.my-0
-      .col-lg-12
-        p En la industria de aseguramiento de la calidad para uniones soldadas, los ensayos se clasifican en dos tipos principales: los que no afectan de forma permanente la estructura o ensamblaje, denominados ensayos no destructivos, y aquellos que provocan alteraciones irreversibles en el material, conocidos como ensayos destructivos.
+      .col-12
+        p(data-aos="fade-right") En la industria de aseguramiento de la calidad para uniones soldadas, los ensayos se clasifican en dos tipos principales: los que no afectan de forma permanente la estructura o ensamblaje, denominados ensayos no destructivos, y aquellos que provocan alteraciones irreversibles en el material, conocidos como ensayos destructivos.
     
     .row.bg-c5
       .col-lg-12
@@ -240,6 +240,14 @@ export default {
   data: () => ({
     mostrarIndicadorTarjetaAudio: true,
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 <style lang="sass"></style>
