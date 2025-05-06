@@ -70,35 +70,35 @@
                     p.mb-0 Se utiliza la inspección visual de las uniones soldadas mediante galgas o calibres. El inspector debe tener agudeza visual 20-20 (natural o corregida) y no ser daltónico. Se realiza antes, durante y después de la soldadura.
                   .col-lg-6.bg-c10.px-5.py-3
                     figure
-                      img(src='@/assets/curso/tema1/img6.png', alt='Ilustraciones mostrando medición de ángulos y espesores con herramientas: una herramienta de medición se usa para verificar el ángulo en una soldadura y el espesor de un material al tope.' style="width: 400px")
+                      img(src='@/assets/curso/tema1/img6.png', alt='Ilustraciones mostrando medición de ángulos y espesores con herramientas: una herramienta de medición se usa para verificar el ángulo en una soldadura y el espesor de un material al tope.' style="width: 400px").m-auto
                 .row
                   .col-lg-6.pe-5
                     p #[b Tintas penetrantes]
                     p Utiliza el principio de capilaridad para detectar discontinuidades superficiales. Las tintas penetrantes, visibles bajo luz normal o ultravioleta, se extraen con un revelador, formando una indicación visible.
                   .col-lg-6.bg-c10.px-5.py-3
                     figure
-                      img(src='@/assets/curso/tema1/img7.png', alt='Secuencia de pasos para inspección con líquido penetrante: aplicación del líquido penetrante, remoción del exceso y revelado para detectar grietas en la superficie del material.' style="width: 400px")     
+                      img(src='@/assets/curso/tema1/img7.png', alt='Secuencia de pasos para inspección con líquido penetrante: aplicación del líquido penetrante, remoción del exceso y revelado para detectar grietas en la superficie del material.' style="width: 400px").m-auto
                 .row
                   .col-lg-6.pe-5
                     p #[b Partículas magnetizables]
                     p Consiste en magnetizar la pieza y aplicar partículas magnéticas (polvo fino de hierro). Las partículas se agrupan en puntos de discontinuidad, facilitando la detección de defectos.
                   .col-lg-6.bg-c10.px-5.py-4
                     figure
-                      img(src='@/assets/curso/tema1/img8.png', alt='Representación de flujo magnético en un material entre polos norte y sur, destacando una grieta central que altera el flujo magnético, ilustrando una técnica de detección.' style="width: 400px")
+                      img(src='@/assets/curso/tema1/img8.png', alt='Representación de flujo magnético en un material entre polos norte y sur, destacando una grieta central que altera el flujo magnético, ilustrando una técnica de detección.' style="width: 400px").m-auto
                 .row
                   .col-lg-6.pe-5
                     p #[b Ultrasonido]
                     p Emplea ondas de alta frecuencia que atraviesan el material y se reflejan en discontinuidades. Los ecos generados permiten localizar fallas internas y superficiales.
                   .col-lg-6.bg-c10.px-5.py-5
                     figure
-                      img(src='@/assets/curso/tema1/img9.png', alt='Esquema de inspección ultrasónica, mostrando dos trayectorias ultrasónicas (TU I y TU II) que se cruzan en un material con referencia a la norma IRAM 764.' style="width: 400px")
+                      img(src='@/assets/curso/tema1/img9.png', alt='Esquema de inspección ultrasónica, mostrando dos trayectorias ultrasónicas (TU I y TU II) que se cruzan en un material con referencia a la norma IRAM 764.' style="width: 400px").m-auto
                 .row
                   .col-lg-6.pe-5
                     p #[b Radiografía X]
                     p Usa radiación ionizante (rayos X o Gamma) para atravesar la pieza y detectar defectos internos. La variación de densidad en la película radiográfica revela discontinuidades.
                   .col-lg-6.bg-c10.px-5.py-5
                     figure
-                      img(src='@/assets/curso/tema1/img10.png', alt='')    
+                      img(src='@/assets/curso/tema1/img10.png', alt='').m-auto
     
     .row
       .col-lg-5
