@@ -69,34 +69,46 @@
                     p #[b Visual]
                     p.mb-0 Se utiliza la inspección visual de las uniones soldadas mediante galgas o calibres. El inspector debe tener agudeza visual 20-20 (natural o corregida) y no ser daltónico. Se realiza antes, durante y después de la soldadura.
                   .col-lg-6.bg-c10.px-5.py-3
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      p.mb-0 #[b Figura 1.] Visual
                     figure
                       img(src='@/assets/curso/tema1/img6.png', alt='Ilustraciones mostrando medición de ángulos y espesores con herramientas: una herramienta de medición se usa para verificar el ángulo en una soldadura y el espesor de un material al tope.' style="width: 400px").m-auto
+                      figcaption.mt-2 #[b Nota. ] Visual (s.f.). [Imagen].
                 .row
                   .col-lg-6.pe-5
                     p #[b Tintas penetrantes]
                     p Utiliza el principio de capilaridad para detectar discontinuidades superficiales. Las tintas penetrantes, visibles bajo luz normal o ultravioleta, se extraen con un revelador, formando una indicación visible.
                   .col-lg-6.bg-c10.px-5.py-3
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      p.mb-0 #[b Figura 2.] Tintas penetrantes
                     figure
                       img(src='@/assets/curso/tema1/img7.png', alt='Secuencia de pasos para inspección con líquido penetrante: aplicación del líquido penetrante, remoción del exceso y revelado para detectar grietas en la superficie del material.' style="width: 400px").m-auto
+                      figcaption.mt-2 #[b Nota. ] Tintas penetrantes (s.f.). [Imagen].
                 .row
                   .col-lg-6.pe-5
                     p #[b Partículas magnetizables]
                     p Consiste en magnetizar la pieza y aplicar partículas magnéticas (polvo fino de hierro). Las partículas se agrupan en puntos de discontinuidad, facilitando la detección de defectos.
                   .col-lg-6.bg-c10.px-5.py-4
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      p.mb-0 #[b Figura 3.] Partículas magnetizables
                     figure
                       img(src='@/assets/curso/tema1/img8.png', alt='Representación de flujo magnético en un material entre polos norte y sur, destacando una grieta central que altera el flujo magnético, ilustrando una técnica de detección.' style="width: 400px").m-auto
+                      figcaption.mt-2 #[b Nota. ] Partículas magnetizables (s.f.). [Imagen].
                 .row
                   .col-lg-6.pe-5
                     p #[b Ultrasonido]
                     p Emplea ondas de alta frecuencia que atraviesan el material y se reflejan en discontinuidades. Los ecos generados permiten localizar fallas internas y superficiales.
-                  .col-lg-6.bg-c10.px-5.py-5
+                  .col-lg-6.bg-c10.px-5.py-4
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      p.mb-0 #[b Figura 4.] Ultrasonido
                     figure
                       img(src='@/assets/curso/tema1/img9.png', alt='Esquema de inspección ultrasónica, mostrando dos trayectorias ultrasónicas (TU I y TU II) que se cruzan en un material con referencia a la norma IRAM 764.' style="width: 400px").m-auto
+                      figcaption.mt-2 #[b Nota. ] Ultrasonido (s.f.). [Imagen].
                 .row
                   .col-lg-6.pe-5
                     p #[b Radiografía X]
                     p Usa radiación ionizante (rayos X o Gamma) para atravesar la pieza y detectar defectos internos. La variación de densidad en la película radiográfica revela discontinuidades.
-                  .col-lg-6.bg-c10.px-5.py-5
+                  .col-lg-6.bg-c10.px-5.py-4
                     figure
                       img(src='@/assets/curso/tema1/img10.png', alt='').m-auto
     
@@ -118,9 +130,12 @@
           .row.justify-content-center
             .col-7.bg-c11
               .row.d-flex.justify-content-center
-                .col-auto
+                .col-12
+                  .titulo-sexto.color-acento-contenido.mb-3
+                    p.mb-0 #[b Figura 5.] Doblado guiado
                   figure
-                    img(src='@/assets/curso/tema1/img11.png', alt='Diagrama que ilustra el centro de soldadura de una pieza, indicando las dimensiones relativas con variables "D" y "T". Se destacan los rodillos laterales y las distancias específicas. ', style="width: 340px")
+                    img(src='@/assets/curso/tema1/img11.png', alt='Diagrama que ilustra el centro de soldadura de una pieza, indicando las dimensiones relativas con variables "D" y "T". Se destacan los rodillos laterales y las distancias específicas. ', style="width: 470px").m-auto
+                    figcaption.mt-2 #[b Nota. ] Doblado guiado (s.f.). [Imagen].
           .row
             .col.px-5
               h4.text-right Doblado guiado
@@ -130,9 +145,12 @@
           .row.justify-content-center
             .col-7.bg-c11
               .row.d-flex.justify-content-center
-                .col-auto
+                .col-12
+                  .titulo-sexto.color-acento-contenido.mb-3
+                    p.mb-0 #[b Figura 6.] Rotura Nick
                   figure
-                    img(src='@/assets/curso/tema1/img12.png', alt='Representación del uso de un martillo para aplicar fuerza en una pieza con ranuras de sierra. ', style="width: 230px")
+                    img(src='@/assets/curso/tema1/img12.png', alt='Representación del uso de un martillo para aplicar fuerza en una pieza con ranuras de sierra. ', style="width: 325px").m-auto
+                    figcaption.mt-2 #[b Nota. ] Rotura Nick (s.f.). [Imagen].
           .row
             .col.px-5          
               h4.text-right Rotura Nick
@@ -143,9 +161,12 @@
           .row.justify-content-center
             .col-7.bg-c11
               .row.d-flex.justify-content-center
-                .col-auto
+                .col-12
+                  .titulo-sexto.color-acento-contenido.mb-3
+                    p.mb-0 #[b Figura 7.] Tensión
                   figure
-                    img(src='@/assets/curso/tema1/img13.png', alt='Tres ensamblajes roscados alineados verticalmente, con la medida de 2 1/2 pulgadas indicada en el ensamblaje inferior. El diseño muestra uniones perforadas y simétricas. ', style="width: 200px")
+                    img(src='@/assets/curso/tema1/img13.png', alt='Tres ensamblajes roscados alineados verticalmente, con la medida de 2 1/2 pulgadas indicada en el ensamblaje inferior. El diseño muestra uniones perforadas y simétricas. ', style="width: 302px").m-auto
+                    figcaption.mt-2 #[b Nota. ] Tensión (s.f.). [Imagen].
           .row
             .col.px-5
               h4.text-right Tensión
@@ -155,9 +176,12 @@
           .row.justify-content-center
             .col-7.bg-c11
               .row.d-flex.justify-content-center
-                .col-auto
+                .col-12
+                  .titulo-sexto.color-acento-contenido.mb-3
+                    p.mb-0 #[b Figura 8.] Charpy V-Notch
                   figure
-                    img(src='@/assets/curso/tema1/img14.png', alt='Diagrama que representa un ensayo de impacto tipo péndulo, con componentes como martillo, yunque, medidor y muestra. Las flechas indican el movimiento del martillo desde la posición inicial hasta el fin del balanceo. ', style="width: 175px")
+                    img(src='@/assets/curso/tema1/img14.png', alt='Diagrama que representa un ensayo de impacto tipo péndulo, con componentes como martillo, yunque, medidor y muestra. Las flechas indican el movimiento del martillo desde la posición inicial hasta el fin del balanceo. ', style="width: 260px").m-auto
+                    figcaption.mt-2 #[b Nota. ] Charpy V-Notch (s.f.). [Imagen].
           .row
             .col.px-5          
               h4.text-right <em> Charpy V-Notch </em>
@@ -174,58 +198,68 @@
         LineaTiempoD.color-primario
 
           .row(numero="1" titulo="Grietas")
-            .col-lg-6.mb-4.mb-md-0
+            .col-12
               p Separaciones en el metal causadas por tensiones residuales o mecánicas.
-            .col-lg-6
-              .row.bg-c12
-                .col-auto
+              .row
+                .col-auto.bg-c12
+                  .titulo-sexto.color-acento-contenido.mb-3
+                    p.mb-0 #[b Figura 9.] Grietas
                   figure
-                    img(src='@/assets/curso/tema1/img16.png', alt='Diagrama con diversos tipos de grietas en soldaduras: longitudinal, transversal, en el metal de soldadura, en la raíz, en la zona afectada térmicamente (ZAT), y en la intercara de la soldadura. ', style="width: 350px")
+                    img(src='@/assets/curso/tema1/img4.svg', alt='Diagrama con diversos tipos de grietas en soldaduras: longitudinal, transversal, en el metal de soldadura, en la raíz, en la zona afectada térmicamente (ZAT), y en la intercara de la soldadura. ', style="width: 490px").m-auto
+                    figcaption.mt-2 #[b Nota. ] Grietas (s.f.). [Imagen].
 
           .row(numero="2" titulo="Poros")
-            .col-lg-6.mb-4.mb-md-0
+            .col-12
               p Huecos globulares generados por gases liberados durante la solidificación del metal.
-            .col-lg-6
-              .row.bg-c12.justify-content-center.align-items-center
-                .col-auto
-                  figure.py-4
-                    img(src='@/assets/curso/tema1/img17.png', alt='Imagen que representa un defecto en la soldadura, con indicación de áreas de porosidad en la parte superior y secciones perforadas en la parte inferior.', style="width: 200px").m-auto
+              .row
+                .col-auto.bg-c12
+                  .titulo-sexto.color-acento-contenido.mb-3
+                    p.mb-0 #[b Figura 10.] Poros
+                  figure
+                    img(src='@/assets/curso/tema1/img5.svg', alt='Imagen que representa un defecto en la soldadura, con indicación de áreas de porosidad en la parte superior y secciones perforadas en la parte inferior.', style="width: 400px").m-auto
+                    figcaption.mt-2 #[b Nota. ] Poros (s.f.). [Imagen].
 
           .row(numero="3" titulo="Falta de fusión")
-            .col-lg-6.mb-4.mb-md-0
+            .col-12
               p Ocurre cuando el metal base y el metal depositado no se fusionan completamente debido a factores como insuficiente potencia eléctrica.
-            .col-lg-6
-              .row.bg-c12.justify-content-center.align-items-center
-                .col-auto
+            .col-12
+              .row
+                .col-auto.bg-c12
+                  .titulo-sexto.color-acento-contenido.mb-3
+                    p.mb-0 #[b Figura 11.] Falta de fusión
                   figure
-                    img(src='@/assets/curso/tema1/img18.png', alt='Imagen que representa un defecto en la soldadura, con indicación de áreas de porosidad en la parte superior y secciones perforadas en la parte inferior.', style="width: 190px")
+                    img(src='@/assets/curso/tema1/img6.svg', alt='Imagen que representa un defecto en la soldadura, con indicación de áreas de porosidad en la parte superior y secciones perforadas en la parte inferior.', style="width: 540px").m-auto
+                    figcaption.mt-2 #[b Nota. ] Falta de fusión (s.f.). [Imagen].
 
           .row(numero="4" titulo="Inclusiones sólidas")
-            .col-lg-6.mb-4.mb-md-0
+            .col-12
               p Partículas o residuos atrapados dentro del metal soldado, como escoria o óxidos.
-            .col-lg-6
-              .row.bg-c12.justify-content-center.align-items-center
-                .col-auto
-                  figure.py-5
-                    img(src='@/assets/curso/tema1/img19.png', alt='Imagen que muestra un diseño de soldadura en forma de esquina, con indicación de fisuras internas en la soldadura.', style="width: 200px")
+              .row
+                .col-auto.bg-c12
+                  .titulo-sexto.color-acento-contenido.mb-3
+                    p.mb-0 #[b Figura 12.] Inclusiones solidas
+                  figure
+                    img(src='@/assets/curso/tema1/img7.svg', alt='Imagen que muestra un diseño de soldadura en forma de esquina, con indicación de fisuras internas en la soldadura.', style="width: 500px").m-auto
+                    figcaption.mt-2 #[b Nota. ] Inclusiones sốlicas (s.f.). [Imagen].
 
           .row(numero="5" titulo="Resistencia a tensión")
-            .col-lg-6.mb-4.mb-md-0
+            .col-12
               p Mide las propiedades del material sometido a esfuerzos de tracción, evaluando su resistencia estructural.
-            .col-lg-6
-              .row.bg-c12.justify-content-center.align-items-center
-                .col-auto
-                  figure.py-4
-                    img(src='@/assets/curso/tema1/img20.png', alt='Gráfico que muestra la relación entre tensión (MPa) y deformación (%), destacando regiones como deformación elástica lineal, no lineal, límite elástico, cuello, deformación plástica y tensión de rotura.', style="width: 250px")
+              .row
+                .col-auto.bg-c12
+                  .titulo-sexto.color-acento-contenido.mb-3
+                    p.mb-0 #[b Figura 13.] Resistencia a tensión
+                  figure
+                    img(src='@/assets/curso/tema1/img8.svg', alt='Gráfico que muestra la relación entre tensión (MPa) y deformación (%), destacando regiones como deformación elástica lineal, no lineal, límite elástico, cuello, deformación plástica y tensión de rotura.', style="width: 550px").m-auto
+                    figcaption.mt-2 #[b Nota. ] Resistencia a tensión (s.f.). [Imagen].
 
           .row(numero="6" titulo="Tenacidad")
-            .col-lg-6.mb-4.mb-md-0
+            .col-12
               p Determina la capacidad del material para absorber energía antes de fracturarse, lo que refleja el nivel de cohesión atómica.
-            .col-lg-6
-              .row.bg-c12.justify-content-center.align-items-center
-                .col-auto
+              .row
+                .col-auto.bg-c12
                   figure.py-4
-                    img(src='@/assets/curso/tema1/img21.png', alt='', style="width: 300px")
+                    img(src='@/assets/curso/tema1/img21.png', alt='', style="width: 500px")
                     
       .col-lg-3.mb-5.mb-md-0
         figure(data-aos="fade-left")
